@@ -1,0 +1,40 @@
+.home {
+   
+    display: flex;
+    min-height: 100vh;
+    background: linear-gradient(#9dbaf2, rgb(255, 255, 255));
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.hom {
+   
+    display: flex;
+    min-height: 100vh;
+    background: linear-gradient(#9dbaf2, rgb(255, 255, 255));
+    justify-content: center;
+    text-align: center;
+    
+}
+.homee {
+   
+    display: flex;
+    min-height: 100vh;
+    background: linear-gradient(#9dbaf2, rgb(255, 255, 255));
+    justify-content: center;
+    text-align: center;
+}
+.header{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1.5rem 7%;
+    border-bottom: var(--border);
+    position: fixed;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+}
+
+

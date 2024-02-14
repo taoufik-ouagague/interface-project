@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>Signin</title>
+</head>
+
+<body>
+
+    <section class="home" id="home">
+        <div class="main">
+            <section class="signup">
+                <br>
+                <img src="unnamed-removebg-preview.png" class="jn mb-4" style="width: 20%;" alt="Responsive image">
+
+                <div class="container">
+                        <form method="POST" id="signup-form">
+
+                            <div class="form-label col-md-12 col-sm-12 mx-auto">
+                                <input type="text"  class="form-control" name="name" id="name" placeholder="Your Name" />
+                            </div><br>
+                            <div class="form-label col-md-12 col-sm-12 mx-auto">
+                                <input type="email" class="form-control" name="email" id="email"
+                                    placeholder="Your Email" />
+                            </div><br>
+                            <div class="form-label col-md-12 col-sm-12 mx-auto">
+                                <input type="password" class="form-control" name="password" id="password"
+                                    placeholder="Password" />
+                                <span toggle="#password"></span>
+                            </div><br>
+                            <div class="form-label col-md-12 col-sm-12 mx-auto">
+                                <input type="password" class="form-control" name="re_password" id="re_password"
+                                    placeholder="Repeat your password" />
+                            </div>
+                            <div id="ll" class="form-label  col-md-12 col-sm-12 mx-auto">
+                                <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                                <label for="agree-term" style="color: black;"><span></span>I agree all
+                                    statements in <a href="#" class="term-service">Terms of service</a></label>
+                            </div>
+                            <div class="form-label">
+                                <button type="submit" href="confirmation_de_email.html" class="btn btn-primary">sign in</button>
+                            </div>
+                        </form>
+                        <p class="loginhere" style="color: black;">
+                            Have already an account ? <a href="#">Login here</a>
+                        </p>
+                </div>
+            </section>
+        </div>
+
+
+    </section>
+
+
+</body>
+
+</html>
